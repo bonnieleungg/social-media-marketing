@@ -14,17 +14,18 @@
   body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    background: linear-gradient(135deg, #1e3c72, #f27121);
-    color: #fff;
+    background: linear-gradient(135deg, #1c3c72, #335d99);
+    color: #e0e7ff;
     line-height: 1.6;
   }
 
   /* Header */
   header {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(12, 35, 75, 0.85);
     padding: 3rem 1rem;
     text-align: center;
     backdrop-filter: blur(6px);
+    color: #cbd5f7;
   }
   header h1 {
     font-weight: 600;
@@ -42,68 +43,70 @@
 
   /* Navigation */
   nav {
-    background: #0b2345;
+    background: #1e40af;
     display: flex;
     justify-content: center;
     padding: 1rem 0;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 8px rgba(30, 64, 175, 0.6);
   }
   nav a {
-    color: #ffd6a5;
-    margin: 0 20px;
+    color: #dbeafe;
+    margin: 0 18px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.2rem;
     border-radius: 25px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   nav a:hover,
   nav a:focus {
-    background-color: #f27121;
-    color: #fff;
+    background-color: #93c5fd;
+    color: #1e3a8a;
   }
 
   /* Content Container */
   section {
     max-width: 900px;
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(30, 64, 175, 0.1);
     margin: 3rem auto;
     padding: 2rem 3rem;
     border-radius: 15px;
-    box-shadow: 0 8px 30px rgba(255, 165, 0, 0.25);
+    box-shadow: 0 8px 30px rgba(59, 130, 246, 0.3);
     backdrop-filter: blur(10px);
+    color: #dbeafe;
   }
   section h2 {
     font-size: 2rem;
-    border-left: 8px solid #f27121;
+    border-left: 8px solid #3b82f6;
     padding-left: 0.7rem;
     margin-bottom: 1rem;
+    color: #bfdbfe;
   }
 
   /* Previous Work Cards */
   .work-item {
-    background: #f27121aa;
+    background: #2563ebcc;
     border-radius: 12px;
     padding: 1rem 1.5rem;
     margin-bottom: 1.5rem;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 20px rgba(37, 99, 235, 0.7);
     transition: transform 0.3s ease;
+    color: #e0e7ff;
   }
   .work-item:hover {
     transform: translateY(-8px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 30px rgba(37, 99, 235, 0.9);
   }
   .work-item h3 {
     font-weight: 600;
     margin-bottom: 0.5rem;
-    color: #102f58;
+    color: #dbdeff;
   }
   .work-item p {
     font-weight: 300;
     font-size: 1.1rem;
-    color: #fff;
   }
 
   /* Services grid */
@@ -113,15 +116,16 @@
     gap: 1.5rem;
   }
   .service {
-    background: #1a4276dd;
+    background: #3b82f6cc;
     padding: 1.5rem 2rem;
     border-radius: 15px;
-    box-shadow: 0 3px 18px rgba(0,0,0,0.3);
-    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 20px rgba(59, 130, 246, 0.7);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #e0e7ff;
   }
   .service:hover {
-    background: #f27121cc;
-    color: #102f58;
+    background: #60a5faee;
+    color: #1e40af;
   }
   .service h3 {
     margin-bottom: 0.7rem;
@@ -145,17 +149,17 @@
     border-radius: 12px;
   }
   .pricing-table th {
-    background: #0b2345;
-    color: #ffd6a5;
+    background: #1e40af;
+    color: #dbeafe;
   }
   .pricing-table td {
-    background: #134191;
-    color: #ffd6a5;
+    background: #60a5fa;
+    color: #1e3a8a;
     transition: background-color 0.3s ease;
   }
   tr:hover td {
-    background-color: #f27121;
-    color: #102f58;
+    background-color: #93c5fd;
+    color: #1e40af;
   }
 
   /* Contact Form */
@@ -164,51 +168,53 @@
     flex-direction: column;
     max-width: 450px;
     margin: auto;
+    color: #dbeafe;
   }
   input, textarea {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(219, 234, 254, 0.12);
     border: none;
     border-radius: 10px;
     padding: 12px 18px;
     margin-bottom: 1rem;
-    color: #fff;
-    font-weight: 300;
+    color: #1e40af;
+    font-weight: 400;
     font-size: 1rem;
     transition: background 0.3s ease;
   }
   input::placeholder,
   textarea::placeholder {
-    color: #ffd6a5;
+    color: #93c5fd;
     font-style: italic;
   }
   input:focus, textarea:focus {
     outline: none;
-    background: rgba(255, 255, 255, 0.35);
+    background: rgba(147, 197, 253, 0.6);
+    color: #1e3a8a;
   }
   button {
-    background: #f27121;
+    background: #2563eb;
     padding: 14px;
     font-weight: 600;
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease, color 0.4s ease;
     font-size: 1.1rem;
-    color: #102f58;
+    color: #dbeafe;
   }
   button:hover {
-    background: #1a4276;
-    color: #ffd6a5;
+    background: #1e40af;
+    color: #bfdbfe;
   }
 
   /* Footer */
   footer {
     text-align: center;
     padding: 2rem 1rem;
-    background: #0b2345;
+    background: #1e40af;
     font-size: 0.9rem;
     letter-spacing: 1.5px;
-    color: #ffd6a5;
+    color: #bfdbfe;
   }
 
   /* Responsive */
@@ -301,4 +307,16 @@
 
 <section id="contact">
   <h2>Contact Us</h2>
-  <form action="mailto
+  <form action="mailto:info@mymarketingagency.com" method="post" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Creative Social Media Marketing Agency. All rights reserved.
+</footer>
+</body>
+</html>
