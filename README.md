@@ -1,4 +1,3 @@
-# social-media-marketing
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,14 +14,14 @@
   body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #1e3c72, #f27121);
     color: #fff;
     line-height: 1.6;
   }
 
   /* Header */
   header {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
     padding: 3rem 1rem;
     text-align: center;
     backdrop-filter: blur(6px);
@@ -43,14 +42,14 @@
 
   /* Navigation */
   nav {
-    background: #2a1f4a;
+    background: #0b2345;
     display: flex;
     justify-content: center;
     padding: 1rem 0;
     box-shadow: 0 4px 6px rgba(0,0,0,0.3);
   }
   nav a {
-    color: #d3d0f7;
+    color: #ffd6a5;
     margin: 0 20px;
     font-weight: 600;
     text-transform: uppercase;
@@ -62,30 +61,30 @@
   }
   nav a:hover,
   nav a:focus {
-    background-color: #967bce;
+    background-color: #f27121;
     color: #fff;
   }
 
   /* Content Container */
   section {
     max-width: 900px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.12);
     margin: 3rem auto;
     padding: 2rem 3rem;
     border-radius: 15px;
-    box-shadow: 0 8px 30px rgba(100, 100, 150, 0.4);
+    box-shadow: 0 8px 30px rgba(255, 165, 0, 0.25);
     backdrop-filter: blur(10px);
   }
   section h2 {
     font-size: 2rem;
-    border-left: 8px solid #967bce;
+    border-left: 8px solid #f27121;
     padding-left: 0.7rem;
     margin-bottom: 1rem;
   }
 
   /* Previous Work Cards */
   .work-item {
-    background: #8669b2;
+    background: #f27121aa;
     border-radius: 12px;
     padding: 1rem 1.5rem;
     margin-bottom: 1.5rem;
@@ -99,10 +98,12 @@
   .work-item h3 {
     font-weight: 600;
     margin-bottom: 0.5rem;
+    color: #102f58;
   }
   .work-item p {
     font-weight: 300;
     font-size: 1.1rem;
+    color: #fff;
   }
 
   /* Services grid */
@@ -112,14 +113,15 @@
     gap: 1.5rem;
   }
   .service {
-    background: #7c63b8;
+    background: #1a4276dd;
     padding: 1.5rem 2rem;
     border-radius: 15px;
     box-shadow: 0 3px 18px rgba(0,0,0,0.3);
     transition: background-color 0.3s ease;
   }
   .service:hover {
-    background: #967bce;
+    background: #f27121cc;
+    color: #102f58;
   }
   .service h3 {
     margin-bottom: 0.7rem;
@@ -143,17 +145,17 @@
     border-radius: 12px;
   }
   .pricing-table th {
-    background: #503c7b;
-    color: #e0d9ff;
+    background: #0b2345;
+    color: #ffd6a5;
   }
   .pricing-table td {
-    background: #7661b2;
-    color: #f0e9ff;
+    background: #134191;
+    color: #ffd6a5;
     transition: background-color 0.3s ease;
   }
   tr:hover td {
-    background-color: #a89de5;
-    color: #2a0a66;
+    background-color: #f27121;
+    color: #102f58;
   }
 
   /* Contact Form */
@@ -176,7 +178,7 @@
   }
   input::placeholder,
   textarea::placeholder {
-    color: #e5dcff;
+    color: #ffd6a5;
     font-style: italic;
   }
   input:focus, textarea:focus {
@@ -184,7 +186,7 @@
     background: rgba(255, 255, 255, 0.35);
   }
   button {
-    background: #967bce;
+    background: #f27121;
     padding: 14px;
     font-weight: 600;
     border: none;
@@ -192,20 +194,21 @@
     cursor: pointer;
     transition: background-color 0.4s ease;
     font-size: 1.1rem;
-    color: #fff;
+    color: #102f58;
   }
   button:hover {
-    background: #bfaaff;
+    background: #1a4276;
+    color: #ffd6a5;
   }
 
   /* Footer */
   footer {
     text-align: center;
     padding: 2rem 1rem;
-    background: #1c1432;
+    background: #0b2345;
     font-size: 0.9rem;
     letter-spacing: 1.5px;
-    color: #a494d3;
+    color: #ffd6a5;
   }
 
   /* Responsive */
@@ -298,16 +301,4 @@
 
 <section id="contact">
   <h2>Contact Us</h2>
-  <form action="mailto:info@mymarketingagency.com" method="post" enctype="text/plain">
-    <input type="text" name="name" placeholder="Your Name" required />
-    <input type="email" name="email" placeholder="Your Email" required />
-    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-    <button type="submit">Send Message</button>
-  </form>
-</section>
-
-<footer>
-  &copy; 2025 Creative Social Media Marketing Agency. All rights reserved.
-</footer>
-</body>
-</html>
+  <form action="mailto
