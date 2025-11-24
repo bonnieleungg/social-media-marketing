@@ -182,13 +182,6 @@
       border: 1px solid var(--border-subtle);
     }
 
-<body>
-  <h1>Here is a Video</h1>
-  <video controls width="600" src="(https://www.instagram.com/reel/DNF96McpcCh/?utm_source=ig_web_copy_link)">
-    Your browser does not support the video tag.
-  </video>
-</body>
-
     .work-card h3 {
       font-size: 22px;
       margin-bottom: 16px;
