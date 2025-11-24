@@ -154,27 +154,27 @@
       margin-bottom: 24px;
     }
 
-    .case-studies {
+    .previous-work {
       padding: 80px 20px;
       background: var(--bg-alt);
       max-width: 1120px;
       margin: 0 auto;
     }
 
-    .case-studies h2 {
+    .previous-work h2 {
       font-size: 36px;
       text-align: center;
       margin-bottom: 48px;
       color: var(--primary);
     }
 
-    .case-studies-grid {
+    .previous-work-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 32px;
     }
 
-    .case-card {
+    .work-card {
       background: var(--card-bg);
       border-radius: var(--radius-lg);
       padding: 32px;
@@ -182,13 +182,20 @@
       border: 1px solid var(--border-subtle);
     }
 
-    .case-card h3 {
+<body>
+  <h1>Here is a Video</h1>
+  <video controls width="600" src="(https://www.instagram.com/reel/DNF96McpcCh/?utm_source=ig_web_copy_link)">
+    Your browser does not support the video tag.
+  </video>
+</body>
+
+    .work-card h3 {
       font-size: 22px;
       margin-bottom: 16px;
       color: var(--primary);
     }
 
-    .case-card p {
+    .work-card p {
       color: var(--text-muted);
     }
 
@@ -242,7 +249,7 @@
       <div class="logo">SocialMediaPro</div>
       <div class="nav-links">
         <a href="#services">Services</a>
-        <a href="#case-studies">Case Studies</a>
+        <a href="#previous-work">Previous Work</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
@@ -276,18 +283,18 @@
     </div>
   </section>
 
-  <section id="case-studies" class="case-studies">
-    <h2>Case Studies</h2>
-    <div class="case-studies-grid">
-      <div class="case-card">
+  <section id="previous-work" class="previous-work">
+    <h2>Previous Work</h2>
+    <div class="previous-work-grid">
+      <div class="work-card">
         <h3>Fashion Brand Growth</h3>
         <p>Increased Instagram followers by 200% and boosted engagement through influencer collaborations.</p>
       </div>
-      <div class="case-card">
+      <div class="work-card">
         <h3>Local Restaurant Revival</h3>
         <p>Revamped Facebook presence, resulting in a 50% increase in reservations and online orders.</p>
       </div>
-      <div class="case-card">
+      <div class="work-card">
         <h3>Tech Startup Launch</h3>
         <p>Launched a viral LinkedIn campaign that generated 10,000 qualified leads in 3 months.</p>
       </div>
